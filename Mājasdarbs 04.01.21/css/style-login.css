@@ -1,0 +1,363 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+/* Global */
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    background-image: url(../img/mobile/BG.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+/* Header */
+.container{
+    width: 100%;
+    min-height: 70px;
+    background: rgba(0, 0, 0, 0.4);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.container .logo{
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 21px;
+    margin-left: 13px;
+}
+nav.tablet{
+    display: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.tablet ul .cloud{
+    background-image: url(../img/tablet/icon-cloud.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 19px;
+    height: 23px;
+    cursor: pointer;
+}
+.tablet li:nth-child(3){
+    margin-left: 5px;
+}
+nav ul .twitter{
+    background-image: url(../img/tablet/icon-t.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 19px;
+    height: 23px;
+    cursor: pointer;
+}
+nav ul .facebook{
+    background-image: url(../img/tablet/icon-f.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 19px;
+    height: 23px;
+    cursor: pointer; 
+}
+nav ul .instagram{
+    background-image: url(../img/tablet/icon-i.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 19px;
+    height: 23px;
+    cursor: pointer;
+}
+.burger{
+    background-image: url(../img/mobile/burger-icon.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 22px;
+    height: 39px;
+    cursor: pointer;
+    margin-right: 13px;
+}
+
+/* Main/Sign Up */
+main{
+    margin: 90px auto 0;
+    max-width: 400px;
+    background: #fff;
+    border-radius: 3px;
+}
+.sign-up{
+    max-width: 360px;
+    background-image: -webkit-gradient(linear, left top, right top, from(#AB47BC)
+    ,to(#7B1FA2));
+    background-image: -o-linear-gradient(left, #AB47BC
+    ,#7B1FA2);
+    background-image: linear-gradient(to right, #AB47BC
+    ,#7B1FA2);
+    -webkit-box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5), 0px 4px 25px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5), 0px 4px 25px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+    margin:0 auto;
+    position: relative;
+    top: -40px;
+    text-align: center;
+}
+main .sign-up h1{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 32px 0 10px;
+    line-height: 23px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+main .sign-up h1:hover{
+    letter-spacing: 3px;
+}
+main .sign-up h1 a{
+    padding: 15px;
+}
+main .media{
+display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+-webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+padding-bottom: 20px;
+
+}
+.sign-up .facebook{
+background-image: url(../img/mobile/icon-f.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 16px;
+height: 21px;
+cursor: pointer;
+}
+
+.media a{
+    padding: 15px;
+}
+.media a:hover{
+border: 1px solid white;
+border-radius: 4px;
+
+}
+.sign-up .twitter{
+background-image: url(../img/mobile/icon-t.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 16px;
+height: 21px;
+cursor: pointer;
+/* margin: 0 5px */
+}
+.sign-up .google{
+background-image: url(../img/mobile/icon-g+.svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 16px;
+height: 21px;
+cursor: pointer;
+}
+main h2{
+text-transform: capitalize;
+color: #000;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+}
+/* Contact-form */
+form{
+    text-align: center;
+}
+.contact-form .field{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 34px 0 15px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.contact-form .field input{
+    padding-bottom: 7px;
+}
+.contact-form .field .face{
+background-image: url(../img/mobile/face-icon.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 24px;
+height: 24px;
+margin-right: 15px;
+}
+.contact-form .field .mail{
+background-image: url(../img/mobile/mail-icon.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 24px;
+height: 24px;
+margin-right: 15px;
+}
+.contact-form .field .lock{
+background-image: url(../img/mobile/lock-icon.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+width: 24px;
+height: 24px;
+margin-right: 15px;
+}
+.contact-form .field input{
+    border: none;
+    border-bottom: 1px solid #D2D2D2;
+    width: 304px;
+}
+.contact-form .btn{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #9C27B0;
+    cursor: pointer;
+    padding: 15px;
+    margin: 34px 0 36px;
+}
+.contact-form .btn:hover{
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+/* Footer */
+footer .bottom ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 66px 0 30px 29px;
+    font-size: 12px;
+}
+footer .bottom ul li{
+margin-left: 34px;
+}
+footer .bottom ul li:nth-child(1){
+margin-left: 0;
+}
+footer .bottom ul li a{
+cursor: pointer;
+}
+footer p{
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 27px;
+}
+@media screen and (min-width: 768px){
+    /* Header */
+    .container .logo{
+    margin-left: 40px;
+}
+.burger{
+        display: none;
+    }
+    nav.tablet{
+        display: inline-block;
+        margin-right: 40px;
+    }
+    nav ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 12px;
+    }
+    nav ul li{
+        margin-left: 27px;
+    }
+    /* main */
+    main{
+    max-width: 353px;
+    }
+    .sign-up{
+    max-width: 314px;
+    }
+    /*Form */
+    .contact-form .field input{
+    width: 269px;
+}
+    /* Footer*/
+    footer .bottom ul{
+    margin: 66px 0 30px 40px;
+    }
+    footer p{
+        /* display: inline-block; */
+        margin-right: 275px;
+        text-align: right;
+    }  
+}
+@media screen and (min-width: 1440px){
+    /* Header */
+.container{
+    background: none;
+    }
+    .container .logo{
+    margin-left: 144px;
+}
+nav.tablet{
+    margin-right: 144px;
+}
+    /* Main */
+    main{
+    max-width: 365px;
+    }
+    .sign-up{
+    max-width: 324px;
+    }
+    /*Form */
+    .contact-form .field input{
+    width: 269px;
+}
+    footer{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        position: relative;
+    }
+    footer .bottom ul{
+    margin: 73px 0 30px 160px;
+    }
+    footer p{
+        position: absolute;
+        right: -20px;
+        bottom: 0;
+    }  
+}
