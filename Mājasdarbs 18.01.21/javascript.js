@@ -1,3 +1,6 @@
+// TODO: validate Tu esi/neesi nokārtojis
+// TODO: validate input > call prompt
+
 function zinasanuVertesana(){
     var input = prompt("Ievadi balli!");
     var balle, rezultats;
@@ -45,6 +48,7 @@ function zinasanuVertesana(){
             // }
             rezultats = "Nav pareizi ievadīta balle";    
     }
+    // TODO: remove Balle:
     document.write(`Balle: ${balle}<br>${rezultats}`)
 };
 zinasanuVertesana();
