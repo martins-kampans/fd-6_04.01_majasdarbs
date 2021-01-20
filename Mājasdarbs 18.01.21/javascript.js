@@ -1,4 +1,3 @@
-// TODO: validate Tu esi/neesi nokārtojis
 var validacijasRezultats = ballesIevade();
 document.write(zinasanuVertesana(validacijasRezultats) + nokartojisNenokartojis(validacijasRezultats));
 
@@ -11,8 +10,9 @@ function ballesIevade(){
 }
 function ievadesValidacija(input){
     if(input > 0 && input <= 10){
-        alert("Balles vērtība ir ievadīta pareizi!");
-        ballesIevade();
+        // TODO: document write
+        // alert("Balles vērtība ir ievadīta pareizi!");
+        // ballesIevade();
         return true;
     }else if(input == null){
         alert("Balles vērtība nav ievadīta. Mēģiniet vēlreiz!");
@@ -67,6 +67,7 @@ function nokartojisNenokartojis(balle){
     }else{
         return ' Esi nokārtojis.';
     }
+    // TODO: return var
 };
 
 
