@@ -1,6 +1,8 @@
 
-var validacijasRezultats = ballesIevade();
-document.write(zinasanuVertesana(validacijasRezultats) + nokartojisNenokartojis(validacijasRezultats));
+// var validacijasRezultats = ballesIevade();
+// document.write(zinasanuVertesana(validacijasRezultats) + nokartojisNenokartojis(validacijasRezultats));
+
+galaRezultats();
 
 function galaRezultats(){
     var validacijasRezultats = ballesIevade();
