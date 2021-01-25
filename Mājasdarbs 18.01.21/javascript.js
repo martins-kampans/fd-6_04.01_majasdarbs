@@ -1,5 +1,12 @@
+
 var validacijasRezultats = ballesIevade();
 document.write(zinasanuVertesana(validacijasRezultats) + nokartojisNenokartojis(validacijasRezultats));
+
+function galaRezultats(){
+    var validacijasRezultats = ballesIevade();
+    document.getElementById('tekstaVieta').innerHTML = (zinasanuVertesana(validacijasRezultats) + nokartojisNenokartojis(validacijasRezultats));
+
+}
 
 function ballesIevade(){
     var balle = prompt("Ievadi balli:");
@@ -10,9 +17,6 @@ function ballesIevade(){
 }
 function ievadesValidacija(input){
     if(input > 0 && input <= 10){
-        // TODO: document write
-        // alert("Balles vērtība ir ievadīta pareizi!");
-        // ballesIevade();
         return true;
     }else if(input == null){
         alert("Balles vērtība nav ievadīta. Mēģiniet vēlreiz!");
@@ -63,16 +67,12 @@ function zinasanuVertesana(input){
 
 function nokartojisNenokartojis(balle){
     if(balle < 4){
-        return ' Neesi nokārtojis.';
+        var teksts = ""
+        return teksts = ' Neesi nokārtojis.';
     }else{
-        return ' Esi nokārtojis.';
+        return teksts = ' Esi nokārtojis.';
     }
-    // TODO: return var
 };
-
-
-
-
 // ballesIevade();
 // function ballesIevade(){
 //     var balle = parseInt(prompt("Ievadi balli:"));
