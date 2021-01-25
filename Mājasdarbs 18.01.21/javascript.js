@@ -5,7 +5,6 @@ document.write(zinasanuVertesana(validacijasRezultats) + nokartojisNenokartojis(
 function galaRezultats(){
     var validacijasRezultats = ballesIevade();
     document.getElementById('tekstaVieta').innerHTML = (zinasanuVertesana(validacijasRezultats) + nokartojisNenokartojis(validacijasRezultats));
-
 }
 
 function ballesIevade(){
